@@ -1094,19 +1094,19 @@
             <div class="col-lg-4">
               <div class="info">
                 <div class="address">
-                  <i class="bi bi-geo-alt"></i>
+                <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
                   <p>girlsdoingtech@gmail.com</p>
                 </div>
 
                 <div class="email">
-                  <i class="bi bi-envelope"></i>
+                <i class="bi bi-instagram"></i>
                   <h4>Instagram:</h4>
                   <p>Username</p>
                 </div>
 
                 <div class="phone">
-                  <i class="bi bi-phone"></i>
+                <i class="bi bi-facebook"></i>
                   <h4>Facebook:</h4>
                   <p>User name</p>
                 </div>
@@ -1204,6 +1204,7 @@
           </div>
         </div>
       </section>
+      
       <!-- End Contact Section -->
     </main>
     <!-- End #main -->
@@ -1368,21 +1369,16 @@ try {
     $mail->addAddress('menelturki@gmail.com', 'Girlsdoingtech11');     // Add a recipient
   
     // Attachement 
-    $mail->addAttachment('upload/file.pdf');
-    $mail->addAttachment('upload/image.png', 'image 1');    // Optional name
-
+   
     // Content
     $mail->isHTML(true); // Set email format to HTML
-    $mail->Subject = 'Send email using SMTP with PHPmailer';
-    $mail->Body = 'A test email from <a href="https://makitweb.com">maktiweb.com</a>';
-    $mail->AltBody = 'A test email from makitweb.com'; // Plain text for non-HTML mail clients
-
-
-
-
+    $mail->Subject = $_POST['subject'];
+    $mail->Body =  'name & surname: '.$_POST['name'].' '.$_POST['surname'].',<br><br > email :'.$_POST['email'].' ,<br ><br > Phone: '.$_POST['phone'].' ,<br> <br> Message : '.$_POST['message'].' ' ; //;A test email from <a href="https://makitweb.com">maktiweb.com</a>';
+  
     $mail->send();
+    
     echo 'Message has been sent';
-  //  echo $_POST['email1'];
+   echo $_POST['email1'];
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }}
