@@ -46,14 +46,3 @@ try {
 }}
 ?>
 
-<?php
-//$name1 = $_POST['subject'];
-//echo $name1;
-//$Email = $_POST['email'];
-//echo $Email;
-?>
-<?php
-
-
-
-?>

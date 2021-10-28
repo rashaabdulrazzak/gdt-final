@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      
+
+
+/* CSS */
+.button-43 {
+  background-image: linear-gradient(-180deg, #9c94d4 0%, #665CAB 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg, #474a4b 0%, #000000 100%);
+}
+
+@media (min-width: 768px) {
+  .button-43 {
+    padding: 1rem 2rem;
+  }
+}
+    </style>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -1082,8 +1115,9 @@
 
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form
-                action="forms/contact.php"
+                action=""
                 method="post"
+                
                
               >
                 <div class="row">
@@ -1109,6 +1143,7 @@
                   </div>
                 </div>
                <!---------->
+               <br>
                <div class="row">
                 <div class="col-md-6 form-group">
                   <input
@@ -1153,15 +1188,16 @@
                     required
                   ></textarea>
                 </div>
-                <!-- <div class="my-3">
-                  <div class="loading">Loading</div>
+                <!-- <div class="my-3" style="background-color: aquamarine;">
+                
                   <div class="error-message"></div>
                   <div class="sent-message">
                     Your message has been sent. Thank you!
                   </div>
-                </div> -->
+                </div> --> <br>
+                
                 <div class="text-center">
-                  <button type="submit" name="submit">Send Message</button>
+                  <button type="submit" class="button-43" name="submit">Send Message</button>
                 </div>
               </form>
             </div>
@@ -1304,3 +1340,51 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+<?php
+// Import PHPMailer classes into the global namespace
+// These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+if(isset($_POST["submit"])){
+// Load Composer's autoloader
+require 'vendor/autoload.php';
+
+// Instantiation and passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+try {
+    //Server settings
+    $mail->SMTPDebug = 0;                                       // 0 - Disable Debugging, 2 - Responses received from the server
+    $mail->isSMTP();                                            // Set mailer to use SMTP
+    $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+    $mail->Username   = 'menelturki@gmail.com';                     // SMTP username
+    $mail->Password   = 'HAYATguzel1';                               // SMTP password
+    $mail->SMTPSecure = 'tls';//PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption, `PHPMailer::ENCRYPTION_SMTPS` also accepted
+    $mail->Port       = 587;                                    // TCP port to connect to
+
+    //Recipients
+    $mail->setFrom($_POST['email'], $_POST['name']);//sender
+    $mail->addAddress('menelturki@gmail.com', 'Girlsdoingtech11');     // Add a recipient
+  
+    // Attachement 
+    $mail->addAttachment('upload/file.pdf');
+    $mail->addAttachment('upload/image.png', 'image 1');    // Optional name
+
+    // Content
+    $mail->isHTML(true); // Set email format to HTML
+    $mail->Subject = 'Send email using SMTP with PHPmailer';
+    $mail->Body = 'A test email from <a href="https://makitweb.com">maktiweb.com</a>';
+    $mail->AltBody = 'A test email from makitweb.com'; // Plain text for non-HTML mail clients
+
+
+
+
+    $mail->send();
+    echo 'Message has been sent';
+  //  echo $_POST['email1'];
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}}
+?>
+

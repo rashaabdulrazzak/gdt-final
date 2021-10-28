@@ -450,22 +450,31 @@ section {
   padding-bottom: 40px;
 }
 .section-title h2 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #665CAB;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
+  background: #665CAB;
+  margin: 4px 10px;
+}
+.section-title h2::before {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #665CAB;
   margin: 4px 10px;
 }
 .section-title p {
@@ -1056,7 +1065,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  background: #ffc451;
+  background: #665CAB;
   color: #151515;
   float: left;
   width: 44px;
@@ -1134,7 +1143,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #ffc451;
+  border-color: #665CAB;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1143,7 +1152,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #ffc451;
+  background: #665CAB;
   border: 0;
   padding: 10px 24px;
   color: #151515;
@@ -1151,7 +1160,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffcd6b;
+  background: #665CAB;
 }
 @-webkit-keyframes animate-loading {
   0% {
