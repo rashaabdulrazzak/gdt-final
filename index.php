@@ -5,6 +5,10 @@
       
 
 
+      a:hover {
+        color: white;
+}
+
 /* CSS */
 .button-43 {
   background-image: linear-gradient(-180deg, #9c94d4 0%, #665CAB 100%);
@@ -50,7 +54,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
@@ -86,11 +92,11 @@
       <div
         class="container d-flex align-items-center justify-content-lg-between"
       >
-        <h1 class="logo me-auto me-lg-0">
+      <!--   <h1 class="logo me-auto me-lg-0">
           <a href="index.html">Gp<span>.</span></a>
-        </h1>
+        </h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+         <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid" width="100" height="70"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
@@ -101,22 +107,23 @@
               <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
             </li>
             <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>لغة ثانية</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="indexen.html">EN</a></li>
-                <li><a href="indextr.html">TR</a></li>
-              </ul>
-            </li>
+           
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
 
-        <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-light dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Language
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">EN</a>
+    <a class="dropdown-item" href="#">AR</a>
+    <a class="dropdown-item" href="#">TR</a>
+</div>
       </div>
     </header>
     <!-- End Header -->
@@ -130,8 +137,8 @@
           data-aos-delay="150"
         >
           <div class="col-xl-6 col-lg-8">
-            <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
-            <h2>We are team of talented digital marketers</h2>
+            <h1>GİRLS DOİNG TECH<!-- <span><i class="bi bi-laptop"></i></span> --></h1>
+            <h2>We make our vision real</h2>
           </div>
         </div>
 
@@ -142,32 +149,32 @@
         >
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i class="ri-store-line"></i>
-              <h3><a href="">Lorem Ipsum</a></h3>
+              <i style="color:#665CAB" class="ri-store-line"></i>
+              <h3><a href="">Quality</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i class="ri-bar-chart-box-line"></i>
-              <h3><a href="">Dolor Sitema</a></h3>
+            <i style="color:#665CAB" class="bi bi-alarm"></i>
+              <h3><a href="">Rapidity</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i class="ri-calendar-todo-line"></i>
-              <h3><a href="">Sedare Perspiciatis</a></h3>
+              <i style="color:#665CAB" class="ri-calendar-todo-line"></i>
+              <h3><a href="">Perfection</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i class="ri-paint-brush-line"></i>
-              <h3><a href="">Magni Dolores</a></h3>
+              <i style="color:#665CAB" class="ri-paint-brush-line"></i>
+              <h3><a href="">Accessibility</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i class="ri-database-2-line"></i>
-              <h3><a href="">Nemos Enimade</a></h3>
+            <i style="color:#665CAB" class="bi bi-currency-dollar"></i>
+              <h3><a href="">Good Prices</a></h3>
             </div>
           </div>
         </div>
@@ -376,7 +383,7 @@
             >
               <div class="icon-box">
                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
+                <h4><a href="">Quality</a></h4>
                 <p>
                   Voluptatum deleniti atque corrupti quos dolores et quas
                   molestias excepturi

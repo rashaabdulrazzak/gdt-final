@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #ffc451;
+  color: #665CAB;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffd584;
+  color: #665CAB;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc451;
+  background: #665CAB;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #151515;
 }
 .back-to-top:hover i {
-  color: #ffc451;
+  color: #665CAB;
 }
 .back-to-top.active {
   visibility: visible;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #ffc451;
+  border: 6px solid #665CAB;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 32px;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 2;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ffc451;
+  color: #665CAB;
 }
 .navbar .dropdown ul {
   display: block;
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  background-color: #ffc451;
+  background-color: #665CAB;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #151515;
-  background-color: #ffc451;
+  background-color: #665CAB;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  background-color: #ffc451;
+  background-color: #665CAB;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -382,9 +382,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color: #ffc451;
+  color: #665CAB;
 }
 #hero h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#hero h2:hover {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
   font-size: 24px;
@@ -392,14 +397,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(221, 71, 71, 0.3);
   height: 100%;
   text-align: center;
 }
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: #665CAB;
 }
 #hero .icon-box h3 {
   font-weight: 700;
@@ -414,10 +419,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: ease-in-out 0.3s;
 }
 #hero .icon-box h3 a:hover {
-  color: #ffc451;
+  color: #665CAB;
 }
 #hero .icon-box:hover {
-  border-color: #ffc451;
+  border-color: #665CAB;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -561,7 +566,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #ffc451;
+  color: #665CAB;
 }
 .features .icon-box p {
   font-size: 15px;
