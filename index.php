@@ -5,10 +5,7 @@
       
 
 
-      a:hover {
-        color: white;
 }
-
 /* CSS */
 .button-43 {
   background-image: linear-gradient(-180deg, #9c94d4 0%, #665CAB 100%);
@@ -76,8 +73,8 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css?<?php echo time(); ?>" />
     <!-- =======================================================
   * Template Name: Gp - v4.6.0
   * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
@@ -149,31 +146,31 @@
         >
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i style="color:#665CAB" class="ri-store-line"></i>
+              <i class="ri-store-line"></i>
               <h3><a href="">Quality</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-            <i style="color:#665CAB" class="bi bi-alarm"></i>
+            <i  class="bi bi-alarm"></i>
               <h3><a href="">Rapidity</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i style="color:#665CAB" class="ri-calendar-todo-line"></i>
+              <i class="ri-calendar-todo-line"></i>
               <h3><a href="">Perfection</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i style="color:#665CAB" class="ri-paint-brush-line"></i>
+              <i  class="ri-paint-brush-line"></i>
               <h3><a href="">Accessibility</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-            <i style="color:#665CAB" class="bi bi-currency-dollar"></i>
+            <i class="bi bi-currency-dollar"></i>
               <h3><a href="">Good Prices</a></h3>
             </div>
           </div>
