@@ -1,3 +1,10 @@
+<?php
+
+$name1='';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,27 +14,8 @@
 
 }
 /* CSS */
-.button-43 {
-  background-image: linear-gradient(-180deg, #9c94d4 0%, #665CAB 100%);
-  border-radius: .5rem;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  display: flex;
-  font-size: 16px;
-  justify-content: center;
-  padding: 1rem 1.75rem;
-  text-decoration: none;
-  width: 100%;
-  border: 0;
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
 
-.button-43:hover {
-  background-image: linear-gradient(-180deg, #474a4b 0%, #000000 100%);
-}
+
 
 @media (min-width: 768px) {
   .button-43 {
@@ -93,7 +81,7 @@
           <a href="index.html">Gp<span>.</span></a>
         </h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-         <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid" width="100" height="70"></a>
+         <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo.png <?php echo time(); ?>" alt="" class="img-fluid" width="100" height="70"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
@@ -180,115 +168,120 @@
     <!-- End Hero -->
 
     <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
+       <!-- ======= About Section ======= -->
+       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>About Us</h2>
+            
+          </div>
           <div class="row">
             <div
               class="col-lg-6 order-1 order-lg-2"
               data-aos="fade-left"
               data-aos-delay="100"
             >
-              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+              <img src="assets/img/about_us.png" class="img-fluid" alt="" />
             </div>
             <div
               class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
               data-aos="fade-right"
               data-aos-delay="100"
             >
-              <h3>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h3>
+              <h3>GirlsDoingTech</h3>
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Group of girls that decided to share their passion for
+                technology and life. We joined one of the most incredible
+                Bootcamp in the web development <strong>Re:coded</strong> and
+                <strong>Flatiron school</strong> to gain the needed knowledge,
+                and then we established our startup.
               </p>
               <ul>
                 <li>
-                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
+                  <i class="ri-check-double-line"></i> We have many skills
+                  covering each side of web development, from design, front end,
+                  and backend development.
                 </li>
                 <li>
-                  <i class="ri-check-double-line"></i> Duis aute irure dolor in
-                  reprehenderit in voluptate velit.
+                  <i class="ri-check-double-line"></i> We work on the new
+                  frameworks on each technology that guarantee the best
+                  performance for the websites that we build.
                 </li>
                 <li>
-                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in
-                  reprehenderit in voluptate trideta storacalaperda mastiro
-                  dolore eu fugiat nulla pariatur.
+                  <i class="ri-check-double-line"></i> We are from different
+                  nationalities, which means we will offer professional
+                  translation for three languages: Arabic, English, and Turkish.
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> We make your vision come
+                  to reality.
                 </li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident
-              </p>
+              <p>Get in touch &#128103;&#127800;.</p>
             </div>
           </div>
         </div>
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients">
+
+     <!-- ======= Clients Section Slider ======= -->
+     <section id="clients" class="clients">
         <div class="container" data-aos="zoom-in">
           <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
               <div class="swiper-slide">
                 <img
-                  src="assets/img/clients/client-1.png"
+                  src="assets/img/clients/client-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="assets/img/clients/client-2.png"
+                  src="assets/img/clients/client-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="assets/img/clients/client-3.png"
+                  src="assets/img/clients/client-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="assets/img/clients/client-4.png"
+                  src="assets/img/clients/client-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="assets/img/clients/client-5.png"
+                  src="assets/img/clients/client-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="assets/img/clients/client-6.png"
+                  src="assets/img/clients/client-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="assets/img/clients/client-7.png"
+                  src="assets/img/clients/client-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="assets/img/clients/client-8.png"
+                  src="assets/img/clients/client-9.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -301,12 +294,17 @@
       <!-- End Clients Section -->
 
       <!-- ======= Features Section ======= -->
-      <section id="features" class="features">
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
         <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>Features</h2>
+            
+          </div>
           <div class="row">
             <div
               class="image col-lg-6"
-              style="background-image: url('assets/img/features.jpg')"
+              style="background-image: url('assets/img/about_us_feature.jpg')"
               data-aos="fade-right"
             ></div>
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
@@ -316,10 +314,10 @@
                 data-aos-delay="150"
               >
                 <i class="bx bx-receipt"></i>
-                <h4>Est labore ad</h4>
+                <h4>GDT</h4>
                 <p>
-                  Consequuntur sunt aut quasi enim aliquam quae harum pariatur
-                  laboris nisi ut aliquip
+                  We have many skills covering each side of web development,
+                  from design, front end, and backend development.
                 </p>
               </div>
               <div
@@ -328,10 +326,10 @@
                 data-aos-delay="150"
               >
                 <i class="bx bx-cube-alt"></i>
-                <h4>Harum esse qui</h4>
+                <h4>GDT</h4>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt
+                  We work on the new frameworks on each technology that
+                  guarantee the best performance for the websites that we build.
                 </p>
               </div>
               <div
@@ -340,10 +338,11 @@
                 data-aos-delay="150"
               >
                 <i class="bx bx-images"></i>
-                <h4>Aut occaecati</h4>
+                <h4>GDT</h4>
                 <p>
-                  Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
-                  maiores omnis facere
+                  We are from different nationalities, which means we will offer
+                  professional translation for three languages: Arabic, English,
+                  and Turkish.
                 </p>
               </div>
               <div
@@ -352,11 +351,8 @@
                 data-aos-delay="150"
               >
                 <i class="bx bx-shield"></i>
-                <h4>Beatae veritatis</h4>
-                <p>
-                  Expedita veritatis consequuntur nihil tempore laudantium vitae
-                  denat pacta
-                </p>
+                <h4>GDT</h4>
+                <p>We make your vision come to reality.</p>
               </div>
             </div>
           </div>
@@ -368,8 +364,8 @@
       <section id="services" class="services">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Services</h2>
-            <p>Check our Services</p>
+            <h2>Check our Services</h2>
+           
           </div>
 
           <div class="row">
@@ -380,7 +376,7 @@
             >
               <div class="icon-box">
                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Quality</a></h4>
+                <h4><a href="">Lorem Ipsum</a></h4>
                 <p>
                   Voluptatum deleniti atque corrupti quos dolores et quas
                   molestias excepturi
@@ -488,17 +484,16 @@
       <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Portfolio</h2>
-            <p>Check our Portfolio</p>
+            <h2>Check our Portfolio</h2>
+           
           </div>
 
           <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
                 <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
-                <li data-filter=".filter-web">Web</li>
+                <li data-filter=".filter-web">Websites</li>
+                <li data-filter=".filter-app">Mobile Apps</li>
               </ul>
             </div>
           </div>
@@ -508,25 +503,29 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
+                  src="assets/img/portfolio/reach-en.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>App</p>
+                  <h4>Health care organization Website.</h4>
+                  <p>Responsive & Available in 3 languages.</p>
+                  <p>React, Bootstrap</p>
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-1.jpg"
+                      href="assets/img/portfolio/reach-ar.png"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="App 1"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="More Details"
+                    <a
+                      href="https://reach-health.com"
+                      title="Website Link"
+                      target="”_blank”"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -537,22 +536,24 @@
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
+                  src="assets/img/portfolio/newest.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Web 3</h4>
-                  <p>Web</p>
+                  <h4>Real estate website</h4>
+                  <p>Contains articles updated using Wordpress.</p>
+                  <p>Responsive</p>
+                  <p>Wordpress CMS</p>
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-2.jpg"
+                      href="assets/img/portfolio/newest.png"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Web 3"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="More Details"
+                    <a href="https://newestrealty.com/" title="More Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -560,25 +561,28 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
+                  src="assets/img/portfolio/todo.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>App</p>
+                  <h4>Planner</h4>
+                  <p>Sign up, add, edit, and delete your daily plans</p>
+                  <p>React, Firebase</p>
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-3.jpg"
+                      href="assets/img/portfolio/todo.png"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="App 2"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="More Details"
+                    <a
+                      href="https://page-of-youth.web.app/"
+                      title="More Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -586,25 +590,28 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
+                  src="assets/img/portfolio/portfolio.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Card 2</h4>
-                  <p>Card</p>
+                  <h4>Portfolio</h4>
+                  <p>Fun and responsive design</p>
+                  <p>React</p>
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-4.jpg"
+                      href="assets/img/portfolio/portfolio.png"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Card 2"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="More Details"
+                    <a
+                      href="https://samaromm.github.io/samarspace/#/"
+                      title="More Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -615,126 +622,25 @@
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
+                  src="assets/img/portfolio/xo.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Web 2</h4>
-                  <p>Web</p>
+                  <h4>Tic-Tac-Toe</h4>
+                  <p>Let you return to your previous moves.</p>
+                  <p>React, Redux</p>
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-5.jpg"
+                      href="assets/img/portfolio/xo.png"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Web 2"
                       ><i class="bx bx-plus"></i
                     ></a>
-                    <a href="portfolio-details.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>App</p>
-                  <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-6.jpg"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="App 3"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="portfolio-details.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-7.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Card 1</h4>
-                  <p>Card</p>
-                  <div class="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-7.jpg"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="Card 1"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="portfolio-details.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-8.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Card 3</h4>
-                  <p>Card</p>
-                  <div class="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-8.jpg"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="Card 3"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="portfolio-details.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Web 3</h4>
-                  <p>Web</p>
-                  <div class="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-9.jpg"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="Web 3"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="portfolio-details.html" title="More Details"
+                      href="https://tictactoe-rasha.netlify.app/"
+                      title="More Details"
                       ><i class="bx bx-link"></i
                     ></a>
                   </div>
@@ -969,8 +875,8 @@
       <section id="team" class="team">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Team</h2>
-            <p>تعرف على فريقنا</p>
+            <h2>Check our Team</h2>
+            
           </div>
 
           <div class="row">
@@ -983,13 +889,20 @@
                     alt=""
                   />
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/rashaabdulrazzak"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/rasha-abdulrazzak"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="https://rashaabdulrazzak.github.io/my-profile/#/"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>رشا</h4>
-                  <span>Chief Executive Officer</span>
+                  <h4>Rasha Abdulrazzaq</h4>
+                  <span>Fullstack Developer</span>
                 </div>
               </div>
             </div>
@@ -1003,13 +916,18 @@
                     alt=""
                   />
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://samaromm.github.io/samarspace/#/"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/samaromm/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>سمر</h4>
-                  <span>Product Manager</span>
+                  <h4>Samar Omar</h4>
+                  <span>Fullstack Developer</span>
                 </div>
               </div>
             </div>
@@ -1023,13 +941,19 @@
                     alt=""
                   />
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/Lobana-sky"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/lobana-alarabi-38470b199/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>لوبانة</h4>
-                  <span>CTO</span>
+                  <h4>Lobana Alarabi</h4>
+                  <span>Fullstack Developer</span>
                 </div>
               </div>
             </div>
@@ -1043,13 +967,16 @@
                     alt=""
                   />
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/manelurki"
+                      ><i class="bi bi-github"></i
+                    ></a>
                     <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>منال</h4>
-                  <span>Accountant</span>
+                  <h4>Menel Turki</h4>
+                  <span>Fullstack Developer</span>
                 </div>
               </div>
             </div>
@@ -1062,13 +989,16 @@
                     alt=""
                   />
                   <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/yvvsra"
+                      ><i class="bi bi-github"></i
+                    ></a>
                     <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>يسرا</h4>
-                  <span>Accountant</span>
+                  <h4>Yusra Atta</h4>
+                  <span>Fullstack Developer</span>
                 </div>
               </div>
             </div>
@@ -1076,13 +1006,14 @@
         </div>
       </section>
       <!-- End Team Section -->
+      <!-- End Team Section -->
 
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Contact</h2>
-            <p>Contact Us</p>
+            <h2>Contact Us</h2>
+            
           </div>
 
           <div>
@@ -1106,20 +1037,26 @@
                 <div class="email">
                 <i class="bi bi-instagram"></i>
                   <h4>Instagram:</h4>
-                  <p>Username</p>
+                  <p>girlsdoingtech</p>
                 </div>
 
                 <div class="phone">
                 <i class="bi bi-facebook"></i>
                   <h4>Facebook:</h4>
-                  <p>User name</p>
+                  <p>girls_doing_tech</p>
+                </div>
+                <div class="phone">
+                <i class="bi bi-twitter"></i>
+                  <h4>Twitter:</h4>
+                  <p>girlsdoingtech</p>
                 </div>
               </div>
+              
             </div>
 
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form
-                action=""
+                action="forms/contact.php "
                 method="post"
                 
                
@@ -1203,6 +1140,16 @@
                 <div class="text-center">
                   <button type="submit" class="button-43" name="submit">Send Message</button>
                 </div>
+                <br>
+                  <div>
+                  
+                  <?php echo "<p>".$name1."</p>";?>
+</div>
+                </div>
+               
+                <div class="text-center">
+              
+                </div>
               </form>
             </div>
           </div>
@@ -1220,33 +1167,17 @@
           <div class="row">
             <div class="col-lg-3 col-md-6">
               <div class="footer-info">
-                <h3>Gp<span>.</span></h3>
+                <br><h3>GDT<span>.</span></h3>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA<br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@example.com<br />
+                 
+                  <strong>Email:</strong> girlsdoingtech@gmail.com<br />
                 </p>
-                <div class="social-links mt-3">
-                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                  <a href="#" class="facebook"
-                    ><i class="bx bxl-facebook"></i
-                  ></a>
-                  <a href="#" class="instagram"
-                    ><i class="bx bxl-instagram"></i
-                  ></a>
-                  <a href="#" class="google-plus"
-                    ><i class="bx bxl-skype"></i
-                  ></a>
-                  <a href="#" class="linkedin"
-                    ><i class="bx bxl-linkedin"></i
-                  ></a>
-                </div>
+                
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
+             <div class="col-lg-5 col-md-6 footer-links">
+             <!-- <h4>Useful Links</h4>
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
@@ -1265,53 +1196,47 @@
                   <i class="bx bx-chevron-right"></i>
                   <a href="#">Privacy policy</a>
                 </li>
-              </ul>
+              </ul>-->
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Web Design</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Web Development</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Product Management</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Graphic Design</a>
-                </li>
-              </ul>
-            </div>
+            <div class="col-lg-4 col-md-6 footer-links">
+              <div class="social-links mt-5">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="#" class="google-plus"
+                    ><i class="bx bxl-skype"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a></div><br>
+                  <p>For more information, please contact us immedtely. </p>
+                
+            </div> 
 
-            <div class="col-lg-4 col-md-6 footer-newsletter">
+            <!--  <div class="col-lg-4 col-md-6 footer-newsletter">
               <h4>Our Newsletter</h4>
               <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
+              For more information, please contact us immediately. 
               </p>
-              <form action="" method="post">
+               <form action="" method="post">
                 <input type="email" name="email" /><input
                   type="submit"
                   value="Subscribe"
                 />
-              </form>
-            </div>
+              </form> 
+            </div> -->
           </div>
         </div>
       </div>
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Gp</span></strong
+          &copy; Copyright <strong><span>GDT</span></strong
           >. All Rights Reserved
         </div>
         <div class="credits">
@@ -1319,7 +1244,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+         <!--  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
         </div>
       </div>
     </footer>
@@ -1345,46 +1270,4 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
-<?php
-// Import PHPMailer classes into the global namespace
-// These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-if(isset($_POST["submit"])){
-// Load Composer's autoloader
-require 'vendor/autoload.php';
-
-// Instantiation and passing `true` enables exceptions
-$mail = new PHPMailer(true);
-
-try {
-    //Server settings
-    $mail->SMTPDebug = 0;                                       // 0 - Disable Debugging, 2 - Responses received from the server
-    $mail->isSMTP();                                            // Set mailer to use SMTP
-    $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'menelturki@gmail.com';                     // SMTP username
-    $mail->Password   = 'HAYATguzel1';                               // SMTP password
-    $mail->SMTPSecure = 'tls';//PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption, `PHPMailer::ENCRYPTION_SMTPS` also accepted
-    $mail->Port       = 587;                                    // TCP port to connect to
-
-    //Recipients
-    $mail->setFrom($_POST['email'], $_POST['name']);//sender
-    $mail->addAddress('menelturki@gmail.com', 'Girlsdoingtech11');     // Add a recipient
-  
-    // Attachement 
-   
-    // Content
-    $mail->isHTML(true); // Set email format to HTML
-    $mail->Subject = $_POST['subject'];
-    $mail->Body =  'name & surname: '.$_POST['name'].' '.$_POST['surname'].',<br><br > email :'.$_POST['email'].' ,<br ><br > Phone: '.$_POST['phone'].' ,<br> <br> Message : '.$_POST['message'].' ' ; //;A test email from <a href="https://makitweb.com">maktiweb.com</a>';
-  
-    $mail->send();
-    
-    echo 'Message has been sent';
-   echo $_POST['email1'];
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-}}
-?>
 

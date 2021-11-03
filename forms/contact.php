@@ -1,8 +1,10 @@
+
 <?php
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+$name1='';
 if(isset($_POST["submit"])){
 // Load Composer's autoloader
 require 'vendor/autoload.php';
@@ -26,23 +28,24 @@ try {
     $mail->addAddress('menelturki@gmail.com', 'Girlsdoingtech11');     // Add a recipient
   
     // Attachement 
-    $mail->addAttachment('upload/file.pdf');
-    $mail->addAttachment('upload/image.png', 'image 1');    // Optional name
-
+   
     // Content
     $mail->isHTML(true); // Set email format to HTML
-    $mail->Subject = 'Send email using SMTP with PHPmailer';
-    $mail->Body = 'A test email from <a href="https://makitweb.com">maktiweb.com</a>';
-    $mail->AltBody = 'A test email from makitweb.com'; // Plain text for non-HTML mail clients
-
-
-
-
+    $mail->Subject = $_POST['subject'];
+    $mail->Body =  'name & surname: '.$_POST['name'].' '.$_POST['surname'].',<br><br > email :'.$_POST['email'].' ,<br ><br > Phone: '.$_POST['phone'].' ,<br> <br> Message : '.$_POST['message'].' ' ; //;A test email from <a href="https://makitweb.com">maktiweb.com</a>';
+    header("Location: ../index.php");
     $mail->send();
-    echo 'Message has been sent';
-  //  echo $_POST['email1'];
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-}}
-?>
+    //////
+   
+/*  if(  $mail->send()) { */
+    $name1='Message has been sent';
+/////////}
 
+    
+   
+  
+} catch (Exception $e) {
+  echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}}
+
+?>
