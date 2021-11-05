@@ -1,0 +1,23 @@
+.rtl{
+direction: rtl !important;
+}
+.contact .info i {
+   
+    float: right;
+    padding: 4px;
+    margin-left: 10px;
+   
+  }
+  #header .logo1 img {
+    max-height: 40px;
+    position: fixed;
+  
+    top: 35px;
+   right: 15%;
+   
+  }
+  .navbar ul li {
+    
+    padding-left: 15px;
+   
+  }

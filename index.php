@@ -22,6 +22,11 @@ $name1='';
     padding: 1rem 2rem;
   }
 }
+@media (min-width: 768px) {
+  #btn {
+    display: none;
+  }
+}
     </style>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -81,7 +86,7 @@ $name1='';
           <a href="index.html">Gp<span>.</span></a>
         </h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-         <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo.png <?php echo time(); ?>" alt="" class="img-fluid" width="100" height="70"></a>
+         <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo3.png" alt="" class="img-fluid" width="100" height="70"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
@@ -105,9 +110,9 @@ $name1='';
     Language
   </button>
   <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">EN</a>
-    <a class="dropdown-item" href="#">AR</a>
-    <a class="dropdown-item" href="#">TR</a>
+    
+    <a class="dropdown-item" a href="indexar.php">AR</a>
+    <a class="dropdown-item" a href="indextr.php">TR</a>
 </div>
       </div>
     </header>
@@ -1056,7 +1061,7 @@ $name1='';
 
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form
-                action="forms/contact.php "
+                action="forms/contact.php "  onsubmit="alert('Thank you for getting in touch');" enctype="multipart/form-data"
                 method="post"
                 
                
@@ -1214,7 +1219,7 @@ $name1='';
                   <a href="#" class="linkedin"
                     ><i class="bx bxl-linkedin"></i
                   ></a></div><br>
-                  <p>For more information, please contact us immedtely. </p>
+                  <p>For more information, please contact us immediately. </p>
                 
             </div> 
 
