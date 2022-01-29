@@ -172,219 +172,133 @@ $name1='';
     </section>
     <!-- End Hero -->
 
-    <main id="main">
-       <!-- ======= About Section ======= -->
-       <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <h2>About Us</h2>
-            
+    
+  <!-- End Hero -->
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/about_us.png" class="img-fluid" alt="" />
           </div>
-          <div class="row">
-            <div
-              class="col-lg-6 order-1 order-lg-2"
-              data-aos="fade-left"
-              data-aos-delay="100"
-            >
-              <img src="assets/img/about_us.png" class="img-fluid" alt="" />
-            </div>
-            <div
-              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
-              data-aos="fade-right"
-              data-aos-delay="100"
-            >
-              <h3>GirlsDoingTech</h3>
-              <p class="fst-italic">
-                Group of girls that decided to share their passion for
-                technology and life. We joined one of the most incredible
-                Bootcamp in the web development <strong>Re:coded</strong> and
-                <strong>Flatiron school</strong> to gain the needed knowledge,
-                and then we established our startup.
-              </p>
-              <ul>
-                <li>
-                  <i class="ri-check-double-line"></i> We have many skills
-                  covering each side of web development, from design, front end,
-                  and backend development.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We work on the new
-                  frameworks on each technology that guarantee the best
-                  performance for the websites that we build.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We are from different
-                  nationalities, which means we will offer professional
-                  translation for three languages: Arabic, English, and Turkish.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We make your vision come
-                  to reality.
-                </li>
-              </ul>
-              <p>Get in touch &#128103;&#127800;.</p>
-            </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>GirlsDoingTech</h3>
+            <p class="fst-italic">
+              Group of girls that decided to share their passion for
+              technology and life. We joined one of the most incredible
+              Bootcamp in the web development <strong>Re:coded</strong> and
+              <strong>Flatiron school</strong> to gain the needed knowledge,
+              and then we established our startup.
+            </p>
+            <p>Get in touch &#128103;&#127800;.</p>
           </div>
         </div>
-      </section>
-      <!-- End About Section -->
+      </div>
+    </section>
+    <!-- End About Section -->
 
-
-     <!-- ======= Clients Section Slider ======= -->
-     <section id="clients" class="clients">
-        <div class="container" data-aos="zoom-in">
-          <div class="clients-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+<!--     ======= Clients Section Slider ======= 
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="" />
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Clients Section -->
-
-      <!-- ======= Features Section ======= -->
-<!-- ======= Features Section ======= -->
-<section id="features" class="features">
-        <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <h2>Features</h2>
-            
-          </div>
-          <div class="row">
-            <div
-              class="image col-lg-6"
-              style="background-image: url('assets/img/about_us_feature.jpg')"
-              data-aos="fade-right"
-            ></div>
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-              <div
-                class="icon-box mt-5 mt-lg-0"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-receipt"></i>
-                <h4>GDT</h4>
-                <p>
-                  We have many skills covering each side of web development,
-                  from design, front end, and backend development.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-cube-alt"></i>
-                <h4>GDT</h4>
-                <p>
-                  We work on the new frameworks on each technology that
-                  guarantee the best performance for the websites that we build.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-images"></i>
-                <h4>GDT</h4>
-                <p>
-                  We are from different nationalities, which means we will offer
-                  professional translation for three languages: Arabic, English,
-                  and Turkish.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-shield"></i>
-                <h4>GDT</h4>
-                <p>We make your vision come to reality.</p>
-              </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="" />
             </div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
-      </section>
-      <!-- End Features Section -->
+      </div>
+    </section>
+     End Clients Section -->
 
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
+ <!-- ======= Services Section ======= -->
+ <section id="services" class="services">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Check our Services</h2>
-           
+            <h2>Services</h2>
+            <p  style="text-align:center">Check our Services</p>
           </div>
+         <!-- <div style="text-align:center" class="card-deck">
+            <div class="card col-lg-4 col-md-6 d-flex ">
+              <img class="card-img-top" src="./assets/img/services/frontend.PNG" style="max-width:300px; height:auto;">
+              <div class="card-body">
+                <h5 class="card-title">Frontend Development</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 d-flex ">
+              <img class="card-img-top" src="./assets/img/services/backend.PNG" style="max-width:300px; height:auto;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 d-flex ">
+              <img class="card-img-top" src="./assets/img/services/mobdev.PNG" style="max-width:200px; height:auto;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+            </div>
+            <div class="card-deck">
+              <div class="card align-items-center">
+                <img class="card-img-top" src="./assets/img/services/frontend.PNG" style="max-width:300px; height:auto;">
+                <div class="card-body">
+                  <h5 class="card-title">Frontend Development</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="./assets/img/services/backend.PNG" style="max-width:300px; height:auto;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="./assets/img/services/mobdev.PNG" style="max-width:200px; height:auto;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+              </div>
+            
+          </div>-->
 
           <div class="row">
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch"
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch"
               data-aos="zoom-in"
               data-aos-delay="100"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
+              <div class="icon"><i class="bx bx-laptop"></i></div>
+              
+                <h4><a href="">Frontend Development</a></h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  The first thing users see when they open your page - this here is the part where you get to see your vision. 
                 </p>
               </div>
             </div>
@@ -395,11 +309,10 @@ $name1='';
               data-aos-delay="200"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Sed ut perspiciatis</a></h4>
+                <div class="icon"><i class="bx bx-minus-back"></i></div>
+                <h4><a href="">Backend Development</a></h4>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
+                  The part of the website that is behind the scenes. We can make your website smoother, faster and most important - F U N C T I O N A L!
                 </p>
               </div>
             </div>
@@ -410,11 +323,10 @@ $name1='';
               data-aos-delay="300"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Magni Dolores</a></h4>
+                <div class="icon"><i class="bx bx-mobile"></i></div>
+                <h4><a href="">Mobile Applications</a></h4>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
+                  When your website and mobile application run as smoothly as each other, that's when you know you're doing the right thing. The right thing here is to contact us and ask about this.
                 </p>
               </div>
             </div>
@@ -424,12 +336,11 @@ $name1='';
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
+              <div class="icon-box">  
+                <div class="icon"><i class="bx bxs-brush"></i></div>
+                <h4><a href="">UI/UX design</a></h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
+                  Aesthetically pleasing websites that will allow your users to interact with your page smoothly.
                 </p>
               </div>
             </div>
@@ -440,11 +351,10 @@ $name1='';
               data-aos-delay="200"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-slideshow"></i></div>
-                <h4><a href="">Dele cardo</a></h4>
+                <div class="icon"><i class="bx bxs-message-rounded-dots"></i></div>
+                <h4><a href="">Languages</a></h4>
                 <p>
-                  Quis consequatur saepe eligendi voluptatem consequatur dolor
-                  consequuntur
+                  Because we speak over 4 different languages, we have the ability to create websites with multiple languages that can reach your audiences with the language they are most comfortable with. 
                 </p>
               </div>
             </div>
@@ -455,17 +365,16 @@ $name1='';
               data-aos-delay="300"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-arch"></i></div>
-                <h4><a href="">Divera don</a></h4>
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="">Presentations</a></h4>
                 <p>
-                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
-                  sit aspernatur
+                  We create simple and creative presentations that give an idea about your website in a short time.
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> 
       <!-- End Services Section -->
 
       <!-- ======= Cta Section ======= -->
@@ -658,7 +567,7 @@ $name1='';
       <!-- End Portfolio Section -->
 
       <!-- ======= Counts Section ======= -->
-      <section id="counts" class="counts">
+     <!--  <section id="counts" class="counts">
         <div class="container" data-aos="fade-up">
           <div class="row no-gutters">
             <div
@@ -750,15 +659,15 @@ $name1='';
                   </div>
                 </div>
               </div>
-              <!-- End .content-->
+         
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Counts Section -->
 
       <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials">
+      <!-- <section id="testimonials" class="testimonials">
         <div class="container" data-aos="zoom-in">
           <div
             class="testimonials-slider swiper"
@@ -785,7 +694,7 @@ $name1='';
                   </p>
                 </div>
               </div>
-              <!-- End testimonial item -->
+            
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -806,7 +715,7 @@ $name1='';
                   </p>
                 </div>
               </div>
-              <!-- End testimonial item -->
+         
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -826,7 +735,7 @@ $name1='';
                   </p>
                 </div>
               </div>
-              <!-- End testimonial item -->
+          
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -847,7 +756,7 @@ $name1='';
                   </p>
                 </div>
               </div>
-              <!-- End testimonial item -->
+            
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -868,12 +777,12 @@ $name1='';
                   </p>
                 </div>
               </div>
-              <!-- End testimonial item -->
+   
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Testimonials Section -->
 
       <!-- ======= Team Section ======= -->
@@ -916,7 +825,7 @@ $name1='';
               <div class="member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member-img">
                   <img
-                    src="assets/img/team/team-2.jpg"
+                    src="assets/img/team/team-2.jpeg"
                     class="img-fluid"
                     alt=""
                   />
@@ -967,7 +876,7 @@ $name1='';
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
                   <img
-                    src="assets/img/team/team-4.jpg"
+                    src="assets/img/team/team-5.jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -1007,10 +916,31 @@ $name1='';
                 </div>
               </div>
             </div>
+            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Zeynep </h4>
+                  <span>Fullstack Developer</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <!-- End Team Section -->
       <!-- End Team Section -->
 
       <!-- ======= Contact Section ======= -->
